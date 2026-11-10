@@ -1,0 +1,47 @@
+num = 15
+if num > 0:
+    print('Positive')
+elif num < 0:
+    print('Negative')
+else:
+    print('Zero')
+output : Positive
+
+---------------------------------------------------------------------Using Nested if-else Statements
+
+num = 15
+if num>=0:
+    if num==0:
+        print('Zero')
+    else:
+        print("Positive")
+else:
+    print("Negative")
+
+output: Positive
+-------------------------------------------------------------------
+
+num = int(input("Enter a number: "))
+
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive")
+else:
+    print("Negative")
+----------------------------------------------------------------------getting input and Nested if-else Statements
+num = int(input('Enter num'))
+
+  if num > 0:
+    print('Positive Number')
+    print(num, 'is a Positive Number')
+  elif (num = 0):
+    print('Zero.')
+  else:
+    print('Negative Number')
+  print('Done!')
+----------------------------------------------------------------------
+
+
+  
